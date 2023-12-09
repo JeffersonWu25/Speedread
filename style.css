@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.drop-area{
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+.drop-text{
+    font-size: 16px;
+    color: #333
+}
+
+.file-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlight {
+    border: 2px dashed #2185d0;
+    background-color: #f0f0f0;
+  }
+  
