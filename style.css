@@ -17,6 +17,7 @@ body {
     width: 300px;
 }
 
+
 .drop-text{
     font-size: 16px;
     color: #333
@@ -52,6 +53,23 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.full-text{
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    width: 600px; 
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    overflow-y: scroll;
+    display: block;
+}
+
 
 .highlight {
     border: 2px dashed #2185d0;
